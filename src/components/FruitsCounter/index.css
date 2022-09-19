@@ -1,0 +1,101 @@
+.fruit-containers {
+  background-color: #ffd569;
+  /* height: 100vh; */
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fruit-bg-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 20px;
+  width: 60%;
+}
+@media screen and (min-width: 768px) {
+  .fruit-bg-container {
+    width: 80%;
+  }
+}
+.fruit-heading {
+  color: #000000;
+  font-family: 'Roboto';
+  text-align: center;
+  font-size: 35px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
+}
+.fruit-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .fruit-container {
+    flex-direction: row;
+  }
+}
+.fruit-control-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  margin-left: 16px;
+  margin-bottom: 16px;
+}
+@media screen and (min-width: 768px) {
+  .fruit-control-container {
+    margin-top: 96px;
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+.fruit-img {
+  width: 190px;
+  height: 170px;
+}
+@media screen and (min-width: 768px) {
+  .fruit-img {
+    width: 296px;
+    height: 276px;
+  }
+}
+.button-container {
+  text-align: center;
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .button-container {
+    margin-top: 48px;
+  }
+}
+.button {
+  color: #ffffff;
+  background-color: #007bff;
+  font-size: 12px;
+  font-family: 'Roboto';
+  border: none;
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    font-size: 16px;
+  }
+}
+.text {
+  color: #ffd569;
+  font-size: 35px;
+}
